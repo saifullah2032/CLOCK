@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="ALARM"
+        android:id="@+id/bottom_alarm"
+        android:icon="@drawable/alarm"
+        />
+    <item
+        android:title="STOP WATCH"
+        android:id="@+id/bottom_stopwatch"
+        android:icon="@drawable/_90113_clock_stopwatch_time_timer_watch_icon"
+        />
+    <item
+        android:title="TIMER"
+        android:id="@+id/bottom_timer"
+        android:icon="@drawable/timer_icon"/>
+</menu>

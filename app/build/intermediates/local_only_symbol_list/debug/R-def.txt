@@ -9,6 +9,7 @@ drawable _90113_clock_stopwatch_time_timer_watch_icon
 drawable alarm
 drawable baseline_circle_notifications_24
 drawable bottom_background
+drawable home_house
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable img
@@ -27,6 +28,7 @@ drawable replay
 drawable timer_icon
 id bottomNavigationview
 id bottom_alarm
+id bottom_home
 id bottom_stopwatch
 id bottom_timer
 id button
@@ -34,6 +36,7 @@ id play
 id replay
 id setAlarmButton
 id stop
+id stopAlarmButton
 id textView
 id timePicker
 layout activity_alarm1

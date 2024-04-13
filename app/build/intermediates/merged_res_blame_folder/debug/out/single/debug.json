@@ -4,8 +4,12 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_timer.xml"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_item_selector.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\item_selector.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\xml_backup_rules.xml.flat",
@@ -16,102 +20,6 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_9.png"
     },
     {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_5.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_5.png"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img.png"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_2.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_2.png"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_replay.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\replay.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.alarm.app-main-33:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_1.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_1.png"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\anim_slide_out_left.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\anim\\slide_out_left.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\menu\\bottom_menu.xml"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\layout_activity_alarm1.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_alarm1.xml"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_8.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_8.png"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_item_selector.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\item_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_7.png.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_7.png"
     },
@@ -120,12 +28,16 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\baseline_circle_notifications_24.xml"
     },
     {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\raw_videoplayback.mp3.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\raw\\videoplayback.mp3"
     },
     {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
@@ -136,36 +48,40 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\play.xml"
     },
     {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img.png"
     },
     {
-        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_4.png.flat",
-        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_4.png"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_5.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_5.png"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_4.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_4.png"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.alarm.app-merged_res-31:/layout_activity_alarm1.xml.flat",
+        "source": "com.example.alarm.app-main-33:/layout/activity_alarm1.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\raw_alarm.mp3.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\raw\\alarm.mp3"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_2.png"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_bottom_background.xml.flat",
@@ -180,16 +96,52 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_replay.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\replay.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\layout_activity_stop_watch.xml.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_stop_watch.xml"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\anim\\slide_out_left.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_pause.xml.flat",
@@ -200,12 +152,16 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_3.png.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_3.png"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_home_house.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\home_house.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_timer_icon.xml.flat",
@@ -216,11 +172,19 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "com.example.alarm.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.alarm.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_alarm.xml.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\layout_activity_alarm1.xml.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\layout\\activity_alarm1.xml"
+    },
+    {
+        "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-31:\\drawable_img_8.png.flat",
+        "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-33:\\drawable\\img_8.png"
     }
 ]

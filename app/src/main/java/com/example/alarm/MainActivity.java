@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;
+            }else if (item.getItemId()==R.id.bottom_home) {
+                return true;
+
             }
             else {
                 return false;

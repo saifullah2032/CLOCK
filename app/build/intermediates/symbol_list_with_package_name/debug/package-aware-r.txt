@@ -2988,6 +2988,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable home_house
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3186,6 +3187,7 @@ id blocking
 id bottom
 id bottomNavigationview
 id bottom_alarm
+id bottom_home
 id bottom_stopwatch
 id bottom_timer
 id bounce
@@ -3519,6 +3521,7 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id stopAlarmButton
 id stretch
 id submenuarrow
 id submit_area

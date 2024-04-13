@@ -42,6 +42,12 @@ public class TIMER extends AppCompatActivity {
             }
             else if (item.getItemId()==R.id.bottom_timer) {
                 return true;
+            }else if (item.getItemId()==R.id.bottom_home) {
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+                return true;
+
             }
             else {
                 return false;

@@ -317,10 +317,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="9966e6" />
-                            <entry key="opacityPercent" value="80" />
-                            <entry key="outputName" value="baseline_circle_notifications_24" />
-                            <entry key="sourceFile" value="C:\Users\saifu\AndroidStudioProjects\ALARM\9035556_play_circle_outline_icon.svg" />
+                            <entry key="outputName" value="home_house" />
+                            <entry key="sourceFile" value="C:\Users\saifu\AndroidStudioProjects\ALARM\185038_home_house_icon.svg" />
                           </map>
                         </option>
                       </PersistentState>

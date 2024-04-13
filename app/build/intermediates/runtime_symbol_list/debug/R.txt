@@ -2987,6 +2987,7 @@ int drawable design_ic_visibility 0x7f070083
 int drawable design_ic_visibility_off 0x7f070084
 int drawable design_password_eye 0x7f070085
 int drawable design_snackbar_background 0x7f070086
+int drawable home_house 0x7f0700f1
 int drawable ic_arrow_back_black_24 0x7f070087
 int drawable ic_clear_black_24 0x7f070088
 int drawable ic_clock_black_24dp 0x7f070089
@@ -3185,6 +3186,7 @@ int id blocking 0x7f08005c
 int id bottom 0x7f08005d
 int id bottomNavigationview 0x7f0801f1
 int id bottom_alarm 0x7f0801f2
+int id bottom_home 0x7f0801fc
 int id bottom_stopwatch 0x7f0801f3
 int id bottom_timer 0x7f0801f4
 int id bounce 0x7f08005e
@@ -3518,6 +3520,7 @@ int id startVertical 0x7f0801a2
 int id staticLayout 0x7f0801a3
 int id staticPostLayout 0x7f0801a4
 int id stop 0x7f0801a5
+int id stopAlarmButton 0x7f0801fd
 int id stretch 0x7f0801a6
 int id submenuarrow 0x7f0801a7
 int id submit_area 0x7f0801a8

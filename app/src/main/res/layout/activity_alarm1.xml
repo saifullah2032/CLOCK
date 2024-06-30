@@ -5,9 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ALARM_1"
+    android:padding="15dp"
     android:background="@drawable/img_3">
 
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animatio_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/snorlax" />
 
     <TimePicker
         android:id="@+id/timePicker"
@@ -15,36 +24,58 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:numbersBackgroundColor="@color/white"
-        android:outlineAmbientShadowColor="#9966e6"
-        android:outlineSpotShadowColor="#9966e6"
+        android:outlineAmbientShadowColor="#F7CCDB"
+        android:outlineSpotShadowColor="#F7CCDB"
 
-        android:numbersSelectorColor="#9966e6"
+        android:numbersSelectorColor="#F7CCDB"
         android:layout_marginTop="175dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/timePicker">
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/setAlarmButton"
-            android:layout_width="150dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Set Alarm"
+            android:background="#FECE64"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/timePicker"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/selectAudioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Select Audio"
+            android:background="#FECE64"
             android:layout_below="@id/timePicker"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:background="#9966e6"
-            android:text="Set Alarm"/>
+            android:layout_marginLeft="10dp" />
+
         <Button
             android:id="@+id/stopAlarmButton"
-            android:layout_width="150dp"
-            android:background="#9966e6"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
             android:text="Stop Alarm"
+            android:background="#FECE64"
             android:layout_below="@id/timePicker"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
     </LinearLayout>
 
 

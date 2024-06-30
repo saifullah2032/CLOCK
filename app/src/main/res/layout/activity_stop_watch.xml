@@ -5,47 +5,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".STOP_WATCH"
-    android:background="@drawable/img_8">
+    android:background="@drawable/img_4">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="40dp"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
 
     <TextView
+        android:id="@+id/tvTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60sp"
-        android:textColor="@color/black"
-        android:layout_centerInParent="true"
-        android:id="@+id/textView"
-        android:textStyle="italic"/>
-    <LinearLayout
-        android:layout_width="match_parent"
+        android:text="00:00:00"
+        android:textSize="48sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:layout_below="@+id/textView"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#D29966E6"
-            android:layout_marginLeft="28dp"
-            android:id="@+id/replay"
-            android:foreground="@drawable/replay"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#D29966E6"
-            android:layout_marginLeft="20dp"
-            android:id="@+id/play"
-            android:foreground="@drawable/play"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#D29966E6"
-            android:layout_marginLeft="20dp"
-            android:id="@+id/stop"
-            android:foreground="@drawable/pause"
-            />
-    </LinearLayout>
+        android:text="Start"
+        android:textColor="@color/black"
+        android:background="#FDD7D4"
+        android:layout_below="@id/tvTimer"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textColor="@color/black"
+        android:background="#FDD7D4"
+        android:layout_below="@id/btnStart"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnLap"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Lap"
+        android:textColor="@color/black"
+        android:background="#FDD7D4"
+        android:layout_below="@id/btnStop"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textColor="@color/black"
+        android:background="#FDD7D4"
+        android:layout_below="@id/btnLap"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lvLaps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#6D35273E"
+        android:divider="#302438"
+        android:textColor="@color/white"
+        android:dividerHeight="2dp"
+        android:layout_below="@id/btnReset"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

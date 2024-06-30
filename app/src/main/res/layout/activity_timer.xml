@@ -4,33 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_9"
+    android:background="@drawable/img_2"
     tools:context=".TIMER">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="50dp"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/an1" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
-        android:layout_centerHorizontal="true"
-        android:background="#996EE6"
-        android:textSize="20dp"
-        android:textStyle="italic"
-        android:textAlignment="center"
-        android:textFontWeight="1"
-        android:text="START" />
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/etTimeInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:00:00"
-        android:textStyle="italic"
-        android:textColor="@color/black"
+        android:hint="Enter time in seconds"
+        android:textColor="#000"
+        android:inputType="number"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"
-        android:textSize="50dp"/>
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:id="@+id/btnStartTimer"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        android:background="#EFAFCE"
+        android:layout_below="@id/etTimeInput"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#000"
+        android:textSize="48sp"
+        android:layout_below="@id/btnStartTimer"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Build;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -27,35 +28,29 @@ public class AlarmRecevier extends BroadcastReceiver {
     private static final String CHANNEL_ID = "AlarmChannel";
     private MediaPlayer mediaPlayer;
     @Override
-    public void onReceive(Context context, Intent intent) {
 
-
-        // You can add more actions here when the alarm triggers, such as playing a sound or showing a notification.
-        // For example:
-        String action = intent.getAction();
-        if (action != null && action.equals("STOP_ALARM")) {
-            // Stop the alarm
-
-            // Cancel the notification
-            cancelNotification(context);
-            stopMediaPlayer();
-        } else {
-            // Start the alarm
-
-            // Display the notification
-            displayNotification(context);
-            startMediaPlayer(context);
-
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if ("STOP_ALARM".equals(action)) {
+                // Handle stopping the alarm
+                // Stop audio playback if needed
+            } else {
+                String audioUriString = intent.getStringExtra("audio_uri");
+                if (audioUriString != null) {
+                    Uri audioUri = Uri.parse(audioUriString);
+                    MediaPlayer mediaPlayer = MediaPlayer.create(context, audioUri);
+                    mediaPlayer.start();
+                }
+            }
         }
 
-    }
 
 
 
 
     private void displayNotification(Context context) {
         Toast.makeText(context, "Alarm! Wake up!", Toast.LENGTH_SHORT).show();
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
                 .setSmallIcon(R.drawable.baseline_circle_notifications_24)
                 .setContentTitle("Alarm")
                 .setContentText("Wake up! It's time.")
@@ -80,20 +75,5 @@ public class AlarmRecevier extends BroadcastReceiver {
         notificationManager.cancel(NOTIFICATION_ID);
 
     }
-    private void startMediaPlayer(Context context) {
 
-        mediaPlayer = MediaPlayer.create(context, R.raw.videoplayback);
-         // Loop the sound
-        mediaPlayer.start(); // Start the media player
-    }
-
-    private void stopMediaPlayer() {
-
-        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
-
-            mediaPlayer.stop(); // Stop the media player
-            mediaPlayer.release(); // Release the media player resources
-            mediaPlayer = null;
-        }
-    }
 }

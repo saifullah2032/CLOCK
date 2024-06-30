@@ -5,6 +5,11 @@
         android:id="@+id/bottom_home"
         android:icon="@drawable/home_house"/>
     <item
+        android:title="CLOCK"
+        android:id="@+id/bottom_clock"
+        android:icon="@drawable/baseline_access_time_24"
+        />
+    <item
         android:title="ALARM"
         android:id="@+id/bottom_alarm"
         android:icon="@drawable/alarm"

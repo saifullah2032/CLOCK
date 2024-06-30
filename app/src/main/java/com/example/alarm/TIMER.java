@@ -92,17 +92,18 @@ public class TIMER extends AppCompatActivity {
             countDownTimer.cancel();
         }
 
-        countDownTimer = new CountDownTimer(timeInSeconds * 1000, 1000) {
+        countDownTimer = new CountDownTimer(timeInSeconds * 1000, 1) {
             public void onTick(long millisUntilFinished) {
                 int secondsRemaining = (int) (millisUntilFinished / 1000);
-                tvCountdown.setText(formatTime(secondsRemaining));
+                int nanoseconds = (int) (millisUntilFinished % 1000);
+                tvCountdown.setText(formatTime(secondsRemaining,nanoseconds));
                 if (!animationView.isAnimating()) {
                     animationView.playAnimation();
                 }
             }
 
             public void onFinish() {
-                tvCountdown.setText("00:00");
+                tvCountdown.setText("00:00:000");
                 Toast.makeText(TIMER.this, "Time's up!", Toast.LENGTH_SHORT).show();
                 playAlarm();
                 animationView.cancelAnimation();
@@ -116,10 +117,10 @@ public class TIMER extends AppCompatActivity {
 
         }
     }
-    private String formatTime(int totalSeconds) {
+    private String formatTime(int totalSeconds, int nanoseconds) {
         int minutes = totalSeconds / 60;
         int seconds = totalSeconds % 60;
-        return String.format("%02d:%02d", minutes, seconds);
+        return String.format(Locale.getDefault(), "%02d:%02d:%03d", minutes, seconds, nanoseconds);
     }
     protected void onDestroy() {
         super.onDestroy();

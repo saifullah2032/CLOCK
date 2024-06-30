@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img_2"
+    android:padding="10dp"
     tools:context=".TIMER">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -41,7 +42,7 @@
         android:id="@+id/tvCountdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:00"
+        android:text="00:00:000"
         android:textColor="#000"
         android:textSize="48sp"
         android:layout_below="@id/btnStartTimer"

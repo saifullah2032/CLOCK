@@ -48,6 +48,10 @@
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-36:\\menu\\bottom_menu.xml"
     },
     {
+        "merged": "com.example.alarm.app-merged_res-34:/layout_activity_timer.xml.flat",
+        "source": "com.example.alarm.app-main-36:/layout/activity_timer.xml"
+    },
+    {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -218,10 +222,6 @@
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-34:\\drawable_img_2.png.flat",
         "source": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-main-36:\\drawable\\img_2.png"
-    },
-    {
-        "merged": "com.example.alarm.app-merged_res-34:/layout_activity_alarm1.xml.flat",
-        "source": "com.example.alarm.app-main-36:/layout/activity_alarm1.xml"
     },
     {
         "merged": "C:\\Users\\saifu\\.gradle\\daemon\\8.2\\com.example.alarm.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
